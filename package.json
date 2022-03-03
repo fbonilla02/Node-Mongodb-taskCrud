@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node src/index.js",
-    "dev"  : "nodemon --exec npm start"
+    "dev": "nodemon --exec npm start"
   },
   "keywords": [],
   "author": "Francisco Bonilla <franciscobonillac@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "express-handlebars": "^6.0.2",
     "mongoose": "^6.2.3",
