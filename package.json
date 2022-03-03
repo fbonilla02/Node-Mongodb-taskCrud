@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node src/index.js",
-    "dev": "nodemon --exec npm start",
-    "build": "babel src -d dist && ncp src/views dist/views && ncp src/public dist/public"
+    "babeldev": "babel-node src/index.js",
+    "dev": "nodemon --exec npm babeldev",
+    "build": "babel src -d dist && ncp src/views dist/views && ncp src/public dist/public",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "Francisco Bonilla <franciscobonillac@gmail.com",
