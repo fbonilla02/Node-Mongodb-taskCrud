@@ -4,6 +4,8 @@
 Este proyecto consiste en una lista de tareas (task-app) el cual puedes crear editar, eliminar y actualizar (CRUD)
 lo realice con backend Nodejs y con la base de datos de mongoDB.
 
+Para la parte del CSS use Bootstrap
+
 Realice el despliegue de la aplicacion en Heroku y use MongoDb Atlas para las datos.
 
 https://task-app-crud-fbonilla.herokuapp.com/
